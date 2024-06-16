@@ -3,7 +3,7 @@ def is_year_leap(year):
 		return True
 	else:
 		return False
-	
-year_to_check= 2024
+year_to_check= int(input("Какой год проверим?"))
+
 result= is_year_leap(year_to_check)
 print(f"Год {year_to_check}:{result}")

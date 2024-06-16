@@ -1,5 +1,6 @@
 def season(moth):
 
+
     if month == 12 or month < 3:
         return "Зима"
     elif month == 3 or month < 6:
@@ -18,7 +19,7 @@ while True:
         month = input("Введите месяц(число):")
         continue
     else:
-        break 
+        break
 month = int(month)
 while True:
     month = int(month)
