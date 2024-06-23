@@ -1,6 +1,13 @@
-def square(a):
-	s = a*a
-	k = ( s)
-	return k
+import math
+
+
+
+def square(side):
+	if isinstance (side, int):
+		return side ** 2
+	else:
+		return math.ceil (side ** 2)
 	
-print(round(square(5.7222)))
+side = float(input("Какова длинна сторон?"))
+area = square(side)
+print(f"Площадь квадрата со стороной {side} равна {area}")
